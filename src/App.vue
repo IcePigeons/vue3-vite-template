@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import HelloWorld from "@/components/HelloWorld.vue"
+import Language from "@/components/Language.vue";
 </script>
 
 <template>
@@ -12,7 +13,7 @@ import HelloWorld from "@/components/HelloWorld.vue"
     </a>
   </div> -->
   <router-link to="/Home">Home</router-link>
-  
+  <div><Language></Language></div>
   <RouterView />
   <!-- <HelloWorld msg="Vite + Vue" /> -->
 </template>
